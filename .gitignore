@@ -1,0 +1,31 @@
+# Entornos y cachés
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+.vscode/
+.idea/
+
+# Datos de trabajo (bases de datos, albaranes, informes): nunca al repositorio
+datos/
+datos_demo/
+*.db
+*.sqlite
+informes/
+pdf_archivo/
+tests/datos/
+
+# Secretos y configuración local
+.env
+.env.*
+*.key
+*.pem

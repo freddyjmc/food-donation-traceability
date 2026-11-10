@@ -1,0 +1,4 @@
+-r requirements.txt
+# Opcional: OCR alternativo si Tesseract lee mal (pesado, elegir UNO)
+# paddleocr
+# easyocr

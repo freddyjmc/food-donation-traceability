@@ -1,0 +1,11 @@
+# Fase 1 - dependencias de la app (todas gratuitas y de código abierto)
+# Python 3.11 o superior. Tesseract se instala aparte (ver README).
+pymupdf>=1.24          # abrir PDF y pasar páginas a imagen (licencia AGPL, ok para uso interno)
+pillow>=10.0           # imágenes
+opencv-python-headless>=4.9   # limpiar el escaneo (enderezar, contraste)
+pytesseract>=0.3.10    # OCR (requiere Tesseract instalado con idioma español)
+pydantic>=2.6          # validar cada línea leída
+pandas>=2.1            # tablas y agrupaciones
+openpyxl>=3.1          # Excel e informes
+streamlit>=1.36        # pantalla de revisión en el navegador
+reportlab>=4.0        # informe en PDF de 2 hojas con gráficos de círculo
